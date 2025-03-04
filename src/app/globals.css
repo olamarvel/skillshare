@@ -19,3 +19,16 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.button{
+
+  @apply bg-black text-white px-8 py-5 rounded-lg shadow-sm mt-3 mx-4;
+}
+
+.heading{
+  @apply text-4xl font-bold
+}
+
+input{
+  @apply w-full border border-black/60 p-4 rounded shadow-sm pb-0
+}
